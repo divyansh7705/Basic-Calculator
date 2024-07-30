@@ -43,23 +43,30 @@ int main() {
     return 0;
 }
 C). <br>
-#include <iostream> <br>
-using namespace std; <br>
-int main() { <br>
-    int m1,m2,m3,m4,m5,avg; <br>
-    cout << "enter the num :"; <br>
-    cin >> m1 >> m2 >> m3 >> m4 >> m5; <br>
-    avg = (m1+m2+m3+m4+m5)/5; <br>
-    if (avg > 80) <br>
-    cout << "it is A+ grade"; <br>
-    else if (avg > 60 and avg<80) <br>
-    cout <<"it is B++ grade"; <br>
-    else if (avg < 60 and avg > 0 ) <br>
-    cout <<"it is C grade"; <br>
-    
+#include <iostream>
+using namespace std;
 
-    return 0; <br>
-}<br>
+int main() {
+    int m1, m2, m3, m4, m5;
+    float avg;
+
+    cout << "Enter the marks for five subjects: ";
+    cin >> m1 >> m2 >> m3 >> m4 >> m5;
+
+    avg = (m1 + m2 + m3 + m4 + m5) / 5;
+
+    if (avg > 80)
+        cout << "It is A+ grade" << endl;
+    else if (avg > 60 && avg <= 80)
+        cout << "It is B++ grade" << endl;
+    else if (avg > 0 && avg <= 60)
+        cout << "It is C grade" << endl;
+    else
+        cout << "Invalid input for marks" << endl;
+
+    return 0;
+}
+
 
 CONCLUSION:- in this experiment we learnt the basic syntax of cpp , add ,subtract, multiply numbers, find the average .<br>
 
