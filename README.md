@@ -10,50 +10,50 @@ Theory:- <br>
 
 CODE:-<br>
 A).  <br>
- #include <iostream>
-using namespace std;
+ #include <iostream> <br>
+using namespace std; <br>
 
-int main() {
-    cout <<"hello word";
+int main() { <br>
+    cout <<"hello word"; <br>
 } <br>
 
 B). <br>
-#include <iostream>
-using namespace std;
+#include <iostream> <br>
+using namespace std; <br>
 
-int main() {
-    float  num1, num2,res;
-    cout << "Enter the first numbers: ";
-    cin>>num1;
-    cout<<"enter the second no.";
-    cin>>num2;
-    cout<<"  addition is :"<<num1+num2<<endl;
-    cout<<"  subtraction is :"<<num1-num2<<endl;
-    res=num1*num2;
-    cout<<" multiplication is :"<<res<<endl;
-    cout<<" division is:"<<num1/num2<<endl;
+int main() { <br>
+    float  num1, num2,res; <br>
+    cout << "Enter the first numbers: "; <br>
+    cin>>num1; <br>
+    cout<<"enter the second no."; <br>
+    cin>>num2; <br>
+    cout<<"  addition is :"<<num1+num2<<endl; <br>
+    cout<<"  subtraction is :"<<num1-num2<<endl; <br>
+    res=num1*num2; <br>
+    cout<<" multiplication is :"<<res<<endl; <br>
+    cout<<" division is:"<<num1/num2<<endl; <br>
    
    
-    return 0;
+    return 0; <br>
 }<br>
 
 C). <br>
-#include <iostream>
-using namespace std;
-int main() {
-    int m1,m2,m3,m4,m5,avg;
-    cout << "enter the num :";
-    cin >> m1 >> m2 >> m3 >> m4 >> m5;
-    avg = (m1+m2+m3+m4+m5)/5;
-    if (avg > 80)
-    cout << "it is A+ grade";
-    else if (avg > 60 and avg<80)
-    cout <<"it is B++ grade";
-    else if (avg < 60 and avg > 0 )
-    cout <<"it is C grade";
+#include <iostream> <br>
+using namespace std; <br>
+int main() { <br>
+    int m1,m2,m3,m4,m5,avg; <br>
+    cout << "enter the num :"; <br>
+    cin >> m1 >> m2 >> m3 >> m4 >> m5; <br>
+    avg = (m1+m2+m3+m4+m5)/5; <br>
+    if (avg > 80) <br>
+    cout << "it is A+ grade"; <br>
+    else if (avg > 60 and avg<80) <br>
+    cout <<"it is B++ grade"; <br>
+    else if (avg < 60 and avg > 0 ) <br>
+    cout <<"it is C grade"; <br>
     
 
-    return 0;
+    return 0; <br>
 }<br>
 
 CONCLUSION:- in this experiment we learnt the basic syntax of cpp , add ,subtract, multiply numbers, find the average .<br>
