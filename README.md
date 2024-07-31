@@ -10,15 +10,15 @@ Theory:- <br>
 
 CODE:-<br>
 A).  <br>
- #include <iostream> <br>
+```#include <iostream> <br>
 using namespace std; <br>
 
 int main() { <br>
     cout <<"hello word"; <br>
-} <br>
+}```
 
 B). <br>
-#include <iostream>
+```#include <iostream>
 using namespace std;
 
 int main() {
@@ -41,9 +41,9 @@ int main() {
     
 
     return 0;
-}
+}```
 C). <br>
-#include <iostream>
+```#include <iostream>
 using namespace std;
 
 int main() {
@@ -65,7 +65,7 @@ int main() {
         cout << "Invalid input for marks" << endl;
 
     return 0;
-}
+}```
 
 
 CONCLUSION:- in this experiment we learnt the basic syntax of cpp , add ,subtract, multiply numbers, find the average .<br>
