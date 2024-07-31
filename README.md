@@ -8,17 +8,20 @@ Theory:- <br>
 1) in this we installed vs code and ming w (from source forge) <br>
 2). in this program we have printed hello world and find the sum , subtarction , multiplication and division of two numbers (user input), taking average of 5 inputs and grading them <br>
 
-CODE:-<br>
-A).  <br>
-```#include <iostream> <br>
-using namespace std; <br>
+CODE:-
+A).  Hello word
+```
+#include <iostream>
+using namespace std; 
 
-int main() { <br>
-    cout <<"hello word"; <br>
-}```
+int main() { 
+    cout <<"hello word"; 
+}
+```
 
-B). <br>
-```#include <iostream>
+B) Calculator
+```
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -41,9 +44,11 @@ int main() {
     
 
     return 0;
-}```
-C). <br>
-```#include <iostream>
+}
+```
+C). Average <br>
+```
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -65,7 +70,8 @@ int main() {
         cout << "Invalid input for marks" << endl;
 
     return 0;
-}```
+}
+```
 
 
 CONCLUSION:- in this experiment we learnt the basic syntax of cpp , add ,subtract, multiply numbers, find the average .<br>
