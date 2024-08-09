@@ -1,4 +1,4 @@
-# CDS-experiment-1
+# CDS-Basic Calculator
 
 
 AIM :- downloading and installation of vs code ( hello world and calculator) <br>
