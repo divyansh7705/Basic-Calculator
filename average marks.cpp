@@ -21,3 +21,10 @@ int main() {
 
     return 0;
 }
+/* OUTPUT:-
+Enter the marks for five subjects: 52
+84
+76
+81
+99
+It is B++ grade*/
