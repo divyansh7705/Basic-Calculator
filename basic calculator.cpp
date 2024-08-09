@@ -22,3 +22,10 @@ int main() {
 
     return 0;
 }
+/* OUTPUT :-
+Enter the first number: 52
+Enter the second number: 61
+Addition is: 113
+Subtraction is: -9
+Multiplication is: 3172
+Division is: 0.852459*/
